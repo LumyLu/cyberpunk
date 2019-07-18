@@ -1,0 +1,113 @@
+#main{
+    margin-top:34px;
+    margin-left:0px;
+    float: left;
+    width: 20%;
+    }
+    body {
+    margin: 0;
+    background: url(image/fon.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 50vh;
+    }
+    a { 
+    text-decoration: none;
+    } 
+    #header {
+    background: #ffffff;
+    height: 5%;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    }
+    
+    a {
+    text-decoration: none;
+    background-image: linear-gradient(#6895D0 50%,#6895D0  50%), linear-gradient(#F5EDA7 50%, #F5EDA7 50%); 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    background-size: 0 2px, 100% 2px; 
+    color: #F5EDA7; 
+    padding-bottom: 3px; 
+    transition: .5s ease-in-out;
+    }
+    a:hover {
+    text-decoration: none;
+    background-size: 100% 2px, 100% 2px;
+    color: #6895D0;
+    } 
+    ul a{
+        background: none;
+    }
+    
+    .glav{
+    float: left;
+    width: calc(100% - 270px);
+    }
+    .glav>p{
+    font-size: 15pt;
+    margin-top: 34px;
+    }
+    .rightimg {
+    float: right;
+    margin: 10vh 0vh 15vh 0vh;
+    width: 27%;
+    }
+    .fter {
+    position:absolute;
+    top:calc(100% + 50px);
+    height: 50px;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 235px;
+    }
+    .fter p {
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+    color: #F5EDA7;
+    }
+    hr {
+    border: none;
+    background-color: #F5EDA7;
+    height: 2px;
+    }
+
+    #clock{
+        height: 5%;
+        display: inline-block;
+        position: absolute;
+        left: 46%;
+        font-size: 21pt;
+        line-height: 2.4em;
+        color: #F5EDA7;
+    }
+    
+    #clock div{
+     float: left;   
+    }
+    #clock div:not(:last-child):after{
+        content: ':';   
+    }
+
+    #clock:after{
+        clear: both;
+        content: '.';
+        visibility: hidden;
+    }
+
+    .onas{
+        position: absolute; 
+        left: calc(100% - 110px); 
+        margin-top: 20px; 
+        font-size: 15pt;
+    }
+
+    .cyb{
+        position: absolute; 
+        left: calc(100% - 235px); 
+        margin-top: 20px; 
+        font-size: 15pt;
+    }
