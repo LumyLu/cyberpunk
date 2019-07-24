@@ -1,0 +1,81 @@
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style:none;
+	text-align: left;
+}
+a{
+	color: #F5EDA7;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+} 
+ul.container{
+	width: 85%;
+	margin: 0 auto;
+	padding: 0;
+}
+li.menu{
+	width: 10%;
+	padding: 2% 0;
+}
+
+li.button a{
+	width: 870%; 
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	font-size: 1.5vw;	
+	padding: 25% 100% 25% 100%;
+}
+li.button a:hover{
+	text-decoration: none;
+}
+li.button a span{
+	height:20vw;
+	position:absolute;
+	right:0;
+	top:0;
+	width:10vw;
+	display:block;
+}
+li.button a.box1, li.button a.box2, li.button a.box3, li.button a.box4, li.button a.box5, li.button a.box6, li.button a.box7, li.button a.box8, li.button a.box9{
+	color :#F5EDA7;
+	border: solid 1px #F5EDA7;
+}
+.dropdown{
+	width: 9vw;
+	display: none;
+}
+
+.dropdown ul{
+	width: 100%;
+}
+
+.dropdown li{
+	width: 164%;
+	border: 1px solid #F5EDA7;
+	margin: 0.5vw 0;
+	padding: 0% 18%;
+}
+
+.menu .button.slide > a:after{
+	content:'\25BC';
+	font-size: 1.2vw;
+	float: right;
+	}
+
+.menu a:hover {
+	background-color: #3B3E41;
+}
+
+.dropdown li a {
+	font-size: 1vw;
+	display: block;
+	margin:3% 0%;
+}
